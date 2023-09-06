@@ -14,7 +14,7 @@ function App() {
         List people = { people }
         /> <
         button onClick = {
-            () => console.log("first LR") } > Clear All < /button> <
+            () => setPeople([]) } > Clear All < /button> <
         /section>
 
         <
