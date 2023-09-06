@@ -6,7 +6,16 @@ function App() {
     return ( <
         main >
         <
-        h2 > reminder project setup < /h2>; <
+        section className = "container" >
+        <
+        h3 > 0 birthdays today < /h3> <
+        List / >
+        <
+        button onClick = {
+            () => console.log("first LR") } > Clear All < /button> <
+        /section>
+
+        <
         /main>
     );
 }
