@@ -11,8 +11,8 @@ function App() {
         <
         h3 > { people.length }
         birthdays today < /h3> <
-        List / >
-        <
+        List people = { people }
+        /> <
         button onClick = {
             () => console.log("first LR") } > Clear All < /button> <
         /section>
